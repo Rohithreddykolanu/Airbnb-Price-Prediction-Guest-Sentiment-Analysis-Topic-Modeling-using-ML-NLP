@@ -78,45 +78,10 @@ The XGBoost model delivered the best test performance with an R² of 0.6166 and 
 - For hosts, prioritize accommodation capacity as the strongest revenue lever, deliver consistently high quality experiences across cleanliness, service, and location, and consider whether converting private rooms to full home access can unlock a higher price tier.
 - For guests, use sentiment, cleanliness, and service signals alongside star ratings to judge value, and weigh private room options carefully against their review based quality scores.
 
-## Repository Structure
-
-```
-airbnb-price-sentiment-nlp/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── notebooks/
-│   └── airbnb_analysis.ipynb
-├── reports/
-│   └── Project_Final_Report.docx
-└── presentation/
-    └── Project_Presentation.pptx
-```
-
-## Getting Started
-
-```bash
-# clone
-git clone https://github.com/<your-username>/airbnb-price-sentiment-nlp.git
-cd airbnb-price-sentiment-nlp
-
-# (optional) create a virtual environment
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-
-# install dependencies
-pip install -r requirements.txt
-
-# launch the notebook
-jupyter notebook notebooks/airbnb_analysis.ipynb
-```
-
-The datasets are not committed to the repository. They can be downloaded directly from Inside Airbnb at https://insideairbnb.com/get-the-data/ using the Chicago snapshot.
-
 ## Tech Stack
 
 Python, pandas, NumPy, Matplotlib, seaborn, Plotly, scikit-learn, TensorFlow and Keras, XGBoost, NLTK, vaderSentiment, Hugging Face Transformers, BeautifulSoup, WordCloud, BERTopic, Jupyter
 
 ## Team
 
-Group 5: Rohith Reddy Kolanu (technical lead), Allen Joe Winny Tharigopala, Ruthwik Reddy Kolanu, and Gianni Colonero.
+**Rohith Reddy Kolanu** (technical lead), Allen Joe Winny Tharigopala, Ruthwik Reddy Kolanu, and Gianni Colonero.
