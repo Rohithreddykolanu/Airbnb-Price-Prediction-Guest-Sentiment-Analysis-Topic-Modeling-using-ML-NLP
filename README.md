@@ -1,0 +1,2 @@
+# Airbnb-Price-Prediction-Guest-Sentiment-Analysis-Topic-Modeling-using-ML-NLP
+End to end analysis of the Chicago Airbnb market combining NLP and price prediction. Applies VADER and transformer sentiment, zero shot classification, and topic modeling (LDA, NMF, LSA, BERTopic) on guest reviews, then predicts listing prices with neural networks and a tuned XGBoost, using Python, TensorFlow, and scikit-learn.
